@@ -70,7 +70,7 @@ Enhance mobile responsiveness
 
 Live Demo
 
-🔗 Live URL: (Add your deployed project link here)
+🔗 Live URL: (https://abdiwahid-gedi.github.io/Recipe-Page/)
 
 
 Repository

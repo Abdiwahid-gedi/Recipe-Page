@@ -6,7 +6,7 @@ body {
 
 .recipe-main-container {
   background-color: white;
-  width: 50%;
+  width: 40%;
   align-items: center;
   margin: 40px auto;
   padding: 0 20px;
@@ -62,7 +62,6 @@ img {
   font-size: small;
   margin: 10px 10px;
   color: black;
-  font-family: Arial;
 }
 
 .ingredients-box h3 {
