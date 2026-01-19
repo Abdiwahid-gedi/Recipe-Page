@@ -1,0 +1,143 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(250, 229, 204);
+  font-size: medium;
+}
+
+.recipe-main-container {
+  background-color: white;
+  width: 50%;
+  align-items: center;
+  margin: 40px auto;
+  padding: 0 20px;
+  border-radius: 10px;
+}
+
+img {
+  width: 95%;
+  margin: 20px 10px;
+  border-radius: 10px;
+}
+
+.description-box {
+  font-size: small;
+  margin: 10px 10px;
+  color: black;
+  line-height: 18px;
+}
+
+.preparation-box {
+  font-size: small;
+  margin: 10px 10px;
+  color: black;
+  background-color: rgb(249, 213, 218);
+  opacity: 0.7;
+  padding: 7px 10px;
+  border-radius: 8px;
+  line-height: 22px;
+  margin-left: 20px;
+}
+
+.preparation-box h3 {
+  color: purple;
+  font-size: 1rem;
+}
+
+.description-box p {
+  font-size: 12px;
+}
+
+.preparation-box ul li {
+  list-style: outside;
+  margin-left: -10px;
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
+
+.preparation-box li::marker {
+  color: purple;
+}
+
+.ingredients-box {
+  font-size: small;
+  margin: 10px 10px;
+  color: black;
+  font-family: Arial;
+}
+
+.ingredients-box h3 {
+  color: brown;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.ingredients-box ul li {
+  list-style: outside;
+  margin-left: -10px;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  line-height: 20px;
+}
+
+.ingredients-box li::marker {
+  color: brown;
+}
+
+.instructions-box {
+  font-size: small;
+  color: black;
+  line-height: 20px;
+}
+
+.instructions-box ol li {
+  padding: 4px 5px;
+  font-size: 12px;
+}
+
+.instructions-box h3 {
+  color: brown;
+  font-size: 1.2rem;
+}
+
+.instructions-box li::marker {
+  color: brown;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.nutrition-box {
+  font-size: small;
+  color: black;
+  padding: 10px 2px;
+}
+
+.nutrition-box h3 {
+  color: brown;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.nutrition-box p {
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.nutrition-box table {
+  border-collapse: collapse;
+  width: 100%;
+  padding: 10px;
+}
+
+.nutrition-box table td {
+  padding: 10px;
+}
+
+.nutrition-box table tr:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+  border-width: 30%;
+}
+
+.nutrition-box table td:not(:first-child) {
+  color: brown;
+  font-weight: bold;
+}
